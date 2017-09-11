@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
                 saveDimens(431);
                 saveDimens(480);
                 saveDimens(540);
+                saveDimens(768);
+                saveDimens(1080);
             }
         }).start();
     }
@@ -32,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
      */
     private void saveDimens(int swDp){
         String str="<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n";
-        for (int i = 1; i < 640; i++) {
+        for (int i = 1; i <= 640; i++) {
             double a=i;
             String b=df.format(a*swDp/360);
             str+="<dimen name=\"dp_"+i+"\">"+b+"dp</dimen>\n";

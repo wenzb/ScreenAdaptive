@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><dimen name="dp_1">0.9dp</dimen>
+<resources>
+<dimen name="dp_1">0.9dp</dimen>
 <dimen name="dp_2">1.8dp</dimen>
 <dimen name="dp_3">2.7dp</dimen>
 <dimen name="dp_4">3.6dp</dimen>
@@ -638,4 +639,5 @@
 <dimen name="dp_637">566.2dp</dimen>
 <dimen name="dp_638">567.1dp</dimen>
 <dimen name="dp_639">568.0dp</dimen>
+<dimen name="dp_640">568.9dp</dimen>
 </resources>
