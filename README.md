@@ -1,2 +1,2 @@
 # ScreenAdaptive
-说来就来
+屏幕适配文件 sw768跟sw1080是适配平板可以不copy
